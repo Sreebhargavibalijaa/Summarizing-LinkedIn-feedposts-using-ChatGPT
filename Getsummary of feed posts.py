@@ -17,7 +17,7 @@ connections = api.get_profile_connections('balija-sree-bhargavi-b761038517a')
 #api.get_feed_posts to get feed posts based on limit specified
 for j in range(limit):
 
-    openai.api_key = "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"
+    openai.api_key = "^^^^^" # you can get the openAi key from https://openai.com/api/
     url = api.get_feed_posts(limit,offset=0, exclude_promoted_posts=True)[j]["url"]
     ask =   api.get_feed_posts(limit, offset=0, exclude_promoted_posts=True)[j]["content"]
     response = openai.Completion.create(
