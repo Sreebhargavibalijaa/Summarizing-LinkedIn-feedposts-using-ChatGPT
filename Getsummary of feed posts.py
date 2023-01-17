@@ -3,7 +3,7 @@ limit = input("limit")
 from linkedin_api import Linkedin
 
 # Authenticate using any Linkedin account credentials
-api = Linkedin('bhargavikrishna2699@gmail.com', "Ganesh@0912")  ##linkedin account credentails
+api = Linkedin('^^^^^^^^^^^^^^^^', "^^^^^^^^^")  ##linkedin account credentails (user_name, password)
 
 # GET a profile
 profile = api.get_profile('balija-sree-bhargavi-b7638517a')
