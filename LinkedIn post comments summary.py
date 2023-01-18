@@ -3,7 +3,7 @@ Post_URN = input("input the post urn")
 comment_count = 10
 comments  = ""
 from linkedin_api import Linkedin
-api = Linkedin('bhargavikrishna2699@gmail.com', "Ganesh@0912")  ##linkedin account credentails
+api = Linkedin('******************', "**************")  ##linkedin account credentails
 
 for j in  range(comment_count):
  comments = comments + api.get_post_comments(Post_URN, comment_count)[j]["comment"]["values"][0]["value"]
