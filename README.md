@@ -6,3 +6,7 @@ Later from on the chatGpt API's summarized text, i am trying to segregate the po
 Here is what I have worked on for the past couple of days,
 https://github.com/Sreebhargavibalijaa/ChatGpt-integration-with-linkedin
 Next steps:- building a website on top of it better user experience.
+
+
+![Screen Shot 2023-01-18 at 11 39 57 PM](https://user-images.githubusercontent.com/115974245/213383219-29b2aced-b7b1-4e3e-acc8-055a7d479c47.png)
+
