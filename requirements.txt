@@ -1,0 +1,2 @@
+linkedin == 4.1.718.1
+    # via linkedin
