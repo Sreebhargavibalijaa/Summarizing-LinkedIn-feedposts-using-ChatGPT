@@ -1,6 +1,6 @@
 import openai
 def summary(summarized_text):
-    openai.api_key = "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"  # you can get the openAi key from https://openai.com/api/
+    openai.api_key = "***********"  # you can get the openAi key from https://openai.com/api/
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt= summarized_text,
