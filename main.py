@@ -1,5 +1,5 @@
 
-limit = "1"#input("Enter the count of posts\n")
+limit = input("Enter the count of posts\n")
 from openAi import *
 from linkedinapi import *
 from linkedin_api import Linkedin
